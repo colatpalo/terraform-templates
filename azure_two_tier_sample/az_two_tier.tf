@@ -4,12 +4,13 @@ need to be done once per subscription
 ```
 az vm image terms accept --urn paloaltonetworks:vmseries1:bundle2:latest
 ```
-*/
+
 
 provider "azurerm" {
   version = "=2.13.0"
   features {}
 }
+*/
 
 resource "azurerm_resource_group" "PAN_FW_RG" {
   name = var.resource_group_name
