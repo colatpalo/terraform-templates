@@ -79,7 +79,7 @@ variable "nicName" {
 }
 
 variable "fwSku" {
-  default = "bundle2"
+  default = "byol"
 }
 
 variable "fwOffer" {
