@@ -83,7 +83,7 @@ variable "fwSku" {
 }
 
 variable "fwOffer" {
-  default = "vmseries1"
+  default = "vmseries-ngfw"
 }
 
 variable "fwPublisher" {
@@ -107,7 +107,7 @@ variable "db-vm-name" {
 }
 
 variable "gvmSize" {
-  default = "Standard_A1"
+  default = "Standard_B1s"
 }
 
 variable "imagePublisher" {
