@@ -83,7 +83,7 @@ variable "fwSku" {
 }
 
 variable "fwOffer" {
-  default = "vmseries-ngfw"
+  default = "vmseries1"
 }
 
 variable "fwPublisher" {
