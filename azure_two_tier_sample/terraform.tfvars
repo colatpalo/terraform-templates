@@ -1,8 +1,0 @@
-FirewallDnsName = "pan-fw"
-FirewallVmName = "vvPANW"
-FirewallVmSize = "Standard_DS3_v2"
-FromGatewayLogin = "0.0.0.0/0"
-StorageAccountName = "vvstg11"
-WebServerDnsName = "pan-web"
-location = "uksouth"
-resource_group_name = "CgRg1"
